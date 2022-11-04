@@ -12,10 +12,9 @@ public class Main {
                     System.out.println("Вы окончили университет и пора искать первую работу. ");
                     int StandingPassagere = 43;
                     int SteatedPassagere = 63;
-                            if (SteatedPassagere>=60) {
-                                System.out.println("Cидячих мест нет ");
-                                if (StandingPassagere>=42); {
-                                System.out.println("Стоячих мест нет ");
+                            if ( SteatedPassagere>= 60 && StandingPassagere>= 42 ) {
+                                System.out.println("Cидячих и стоячих мест нет ");
+                            }
 
 
 
@@ -28,6 +27,3 @@ public class Main {
             }
 
         }
-    }
-}
-

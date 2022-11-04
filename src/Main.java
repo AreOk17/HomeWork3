@@ -6,7 +6,7 @@ public class Main {
         if (Age =>2 || Age <= 6) {
             System.out.println("Вам нужно ходить в десткий сад, вам: " + Age + " Лет");
         } else {
-            System.out.println("Вам нужно в школу, вам : " + Age + " Лет");
+            System.out.println("Вам нужно в школу, вам : " + Age + " Леет");
             }
     }
     }
